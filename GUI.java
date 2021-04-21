@@ -18,7 +18,7 @@ public class GUI implements ActionListener{
 		frame.add(panel, BorderLayout.CENTER);
 		//button go brrrrrr
 		JButton button = new JButton("click ");
-		label = new JLabel(CLICK ");
+		label = new JLabel("CLICK ");
 		panel.add(button);
 		panel.add(label);
 		button.addActionListener(this);
