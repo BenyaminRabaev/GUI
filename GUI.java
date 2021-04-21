@@ -13,7 +13,7 @@ public class GUI implements ActionListener{
 		//defining the parameters
 		JFrame frame = new JFrame();
 		JPanel panel = new JPanel();
-		panel.setBorder(BorderFactory.createEmptyBorder(30,30,10,30));
+		panel.setBorder(BorderFactory.createEmptyBorder(69,420,69,420));
 		panel.setLayout(new GridLayout(0,1));
 		frame.add(panel, BorderLayout.CENTER);
 		//button go brrrrrr
@@ -29,7 +29,7 @@ public class GUI implements ActionListener{
 		frame.pack();
 		frame.setVisible(true);
 	}
-	//if you dont know what this is your wierd
+	//if you dont know what this is you're weird
 	public static void main(String[] args){
 		new GUI();
 
