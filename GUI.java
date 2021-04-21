@@ -17,15 +17,15 @@ public class GUI implements ActionListener{
 		panel.setLayout(new GridLayout(0,1));
 		frame.add(panel, BorderLayout.CENTER);
 		//button go brrrrrr
-		JButton button = new JButton("click me noob");
-		label = new JLabel("FREAKING CLICK HIM");
+		JButton button = new JButton("click ");
+		label = new JLabel(CLICK ");
 		panel.add(button);
 		panel.add(label);
 		button.addActionListener(this);
 
 		//opening and title
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.setTitle("Benramins Minecraft Modding IDE");
+		frame.setTitle("Test");
 		frame.pack();
 		frame.setVisible(true);
 	}
